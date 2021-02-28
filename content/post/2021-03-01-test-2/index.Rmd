@@ -1,12 +1,13 @@
 ---
-title: test
-author: 'mr G'
-date: '2021-02-28'
-slug: test
-categories:
-  - R
+title: test 2
+author: ''
+date: '2021-03-01'
+slug: test-2
+categories: []
 tags: []
+
 ---
+
 
 
 ```{r setup, include=FALSE}
