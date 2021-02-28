@@ -99,7 +99,7 @@ The other tab depicts the relative frequency of movie releases by month. While t
 ## Number of Movies over Time
 
 ```{r Number of Movies}
-data %>% 
+p <-data %>% 
 count(release_year) %>% 
 ggplot(aes(release_year, n)) +
 geom_line(col = "royalblue") +
@@ -108,5 +108,5 @@ labs(title = "Number of Movies over time",
      x = "Release Year",
      y = "Number")
 
-
+ggplotly(p)
 ```
